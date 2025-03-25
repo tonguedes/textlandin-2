@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<style>
+    .carousel {
+        display: none;
+    }
+
+    @media (max-width: 790px) {
+        .carousel {
+            display: block;
+            text-align: center;
+        }
+
+        .team {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-inner">
+        <div class="container">
+            <a class="navbar-brand navbar-light bg-transparent" href="#" style="background-color: rgba(0, 0, 0, 0.5);">
+                <img src="assets/img/HPM-LOGO-OK.png" alt="Bootstrap" width="120" height="50">
+            </a>
+        </div>
+    </nav>
+
+    <section id="secao-1">
+        <div class="container" id="container-1">
+            <div class="row align-items-center ">
+                <div class="col-12 col-md-6 text-start">
+                    <!-- Texto -->
+                    <h1 style="color:#FFF; font-size: 33px;">MONETIZE SEU <span
+                            style="color: #d4af37;">CONHECIMENTO</span><br> E
+                        FATURE DE <span style="color: #d4af37;">R$30K A R$
+                            100K POR MÊS!</span>
+                    </h1><br>
+
+                    <ul class="list-unstyled">
+                        <li id="text-monetize "><span style="color:#d4af37; font-size: 30px;">✓</span>
+                            Você precisa estar a mais de 5 anos na sua área;
+                        </li>
+
+                        <li id="text-monetize " style="color:#FFF"><span
+                                style="color:#d4af37; font-size: 30px;">✓</span> Necessário
+                            ter resultados
+                            acima da média;</li>
+
+                        <li id="text-monetize" style="color:#FFF"><span
+                                style="color:#d4af37; font-size: 30px;">✓</span>Disponibilizar capital para
+                            investimento a
+                            partir de R$
+                            5 mil.
+                        </li>
+
+                    </ul>
+
+                    <p>
+                        Se você preenche os requisitos acima,
+                        toque<br> no botão abaixo e preencha nosso formulário
+                    </p>
+
+                    <button id="showFormButton btn-1" class="btn btn-custom btn-smaller" type="button"
+                        class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal">quero aplicar agora
+                    </button>
+                    <p style="margin-top: 10px; font-size: 14px;"> <i class="bi bi-lock-fill"
+                            style="color: goldenrod;"></i>seus dados estarão
+                        seguros e 100% protegidos</p>
+                </div>
+
+                <div class="col-12 col-md-6 img-fluid">
+
+
+                    <div class="boximg-1 ">
+                        <img src="assets/img/hero-img.png" class="" alt="Descrição da imagem" width="1002" height="730">
+                           
+                    </div>
+
+
+
+                </div>
+                <div class="container" style="margin-top: 5%;" id="linha-1">
+                    <hr class="gradient-line my-0">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-black" id="formModalLabel">Torne-se um<br> Franqueado de <span
+                            style="color: red;">Sucesso</span> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Digite seu telefone" required>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-smaller ">FALE COM UM CONSULTOR</button>
+                    </form>
+                    <p class="text-muted mt-3" style="font-size: 12px;">
+                        Ao enviar os dados acima, eu concordo em receber contatos e mensagens por meio do WhatsApp,
+                        Telefones e E-mails.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container " id="secao-2">
+
+        <h2 class="text-center align-items-center" style="color: #d4af37;">MÉTODO HPM TE LEVA DO PONTO A AO PONTO
+            B.<br />DA
+            FRUSTRAÇÃO À LIBERDADE
+            FINANCEIRA.
+        </h2><br><br>
+
+
+        <div class="timeline">
+            <div class="row timeline-item">
+                <div class="col-md-5 left">
+                    <div class="timeline-content">
+                        <h4 style="color: #d4af37;">PONTO A</h4>
+                        <p class="text-white">Você tem anos de experiência, mas ainda não monetiza seu conhecimento de
+                            forma
+                            estruturada?
+
+                            Não sabe como criar e vender um produto digital ou uma mentoria lucrativa?
+                            Posta conteúdos, mas não gera clientes recorrentes e depende de indicação?</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="col-md-5 right"></div> <!-- Espaço vazio no lado direito -->
+            </div>
+
+            <div class="row timeline-item">
+                <div class="col-md-5 left"></div> <!-- Espaço vazio no lado esquerdo -->
+                <div class="col-md-2">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="col-md-5 right">
+                    <div class="timeline-content">
+                        <h4 style="color: #d4af37;">PONTO B</h4>
+                        <p class="text-white">Faturamento previsível de R$30k a R$100k por mês, com um método
+                            estruturado
+                            pronto para escalar no digital.
+                            Clientes chegando todos os dias, automação e escala para crescer com liberdade e alta
+                            lucratividade.
+                            Com o Método HPM, você vende seu conhecimento de forma estratégica.</p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="secao-3" class=" py-4">
+        <p class="text-center fs-4">Temos um método com pilares estratégicos</p>
+
+        <div id="team" class="team">
+
+            <div class="container">
+                <div class="row justify-content-center gap-2" id="cards-3">
+                    <!-- Card 1 -->
+
+                    <div class="col-5 col-md-5 col-lg-2">
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                1:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">POSICIONAMENTO </h6><br><br>
+                                <p class="card-text small">Defina sua persona,sua promessa e se torne referência no seu
+                                    nicho..</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-5 col-md-5 col-lg-2">
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                2:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">OFERTA IRRESISTÍVEL</h6><br>
+                                <p class="card-text small">Transforme seu conhecimento em um método lucrativo,com uma
+                                    oferta
+                                    irresistível.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-5 col-md-5 col-lg-2">
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2 "
+                                style="background-color: #d4af37;">PILAR
+                                3:
+                            </div><br>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">PROSPECÇÃO E VENDAS</h6><br>
+                                <p class="card-text small">Crie um modelo replicável e escalável, faturando alto sem
+                                    precisar vender
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-5 col-md-5 col-lg-2">
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                4:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">ESCALA E GESTÃO</h6><br>
+                                <p class="card-text small">Crie um modelo replicável escalável, faturando alto
+                                    semprecisar vender
+                                    manualmente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-lg-12 wow fadeInLeft" 0.8>
+
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                1:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">POSICIONAMENTO </h6><br><br>
+                                <p class="card-text small">Defina sua persona,sua promessa e se torne referência no seu
+                                    nicho..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-12 wow fadeInLeft" 0.8>
+
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                2:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">OFERTA IRRESISTÍVEL</h6><br>
+                                <p class="card-text small">Transforme seu conhecimento em um método lucrativo,com uma
+                                    oferta
+                                    irresistível.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-12 wow fadeInLeft" 0.5>
+
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                3:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">PROSPECÇÃO E VENDAS</h6><br>
+                                <p class="card-text small">Crie um modelo replicável e escalável, faturando alto sem
+                                    precisar vender
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-lg-12 wow fadeInLeft" 0.8>
+
+                        <div class="card border-warning text-white bg-black card-small">
+                            <div class="card-header border-warning  text-dark fw-bold p-2"
+                                style="background-color: #d4af37;">PILAR
+                                4:
+                            </div>
+                            <div class="card-body p-2">
+                                <h6 class="card-title">ESCALA E GESTÃO</h6><br>
+                                <p class="card-text small">Crie um modelo replicável escalável, faturando alto
+                                    semprecisar vender
+                                    manualmente</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+
+        </div>
+
+
+
+
+        <!-- Botão -->
+        <div class="text-center mt-4 ">
+            <button id="showFormButton btn-3" class="btn  px-4 py-2 btn-smaller" data-bs-toggle="modal"
+                data-bs-target="#formModal">Quero Aplicar Agora</button>
+        </div>
+
+        <!-- Informações adicionais -->
+        <div class="text-center mt-3">
+            <p class="text-white" style="font-size: 14px;">
+                <i class="bi bi-lock-fill text-warning"></i> Seus dados estarão seguros e 100% protegidos.
+            </p><br><br>
+            <div class="container">
+                <hr class="gradient-line my-0">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="secao-4">
+        <p class="text">A HPM VAI TE AJUDAR EM TODOS QUESITOS<br>
+            SABE O QUE ISSO SIGNIFICA PARA VOCÊ?</p><br>
+
+        <div class="container text-center" id="card-text">
+            <div class=" row justify-content-center">
+                <div class="  col-md-7 ">
+                    <div class=" card border border-2 rounded border-warning text-white  shadow-sm mb-4 box">
+                        <div class="card-body bg-black">
+
+                            <p class="card-text d-flex justify-content-left">
+                                <span style="color:#d4af37; font-size: 24px; font-weight: bold;">✓</span>&ensp;&ensp;
+                                Faturar R$30k ou
+                                mais nos primeiros
+                                30 dias
+                                sem
+                                precisar de seguidores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="card border border-2 border-warning text-white rounded shadow-sm mb-4  box">
+                        <div class="card-body bg-black">
+
+                            <p class="card-text d-flex justify-content-left">
+                                <span style="color:#d4af37; font-size: 24px; font-weight: bold;">✓</span>
+                                &ensp;&ensp;Ter um modelo de
+                                vendas previsível e
+                                escalável.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="card border border-2 border-warning text-white rounded shadow-sm mb-4  box">
+                        <div class="card-body bg-black">
+
+                            <p class="card-text d-flex justify-content-left">
+                                <span
+                                    style="color:#d4af37; font-size: 24px; font-weight: bold;">✓</span>&ensp;&ensp;Monetizar
+                                sua
+                                experiência e
+                                construir um
+                                negócio
+                                sólido no digital.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="card border border-2 border-warning text-white rounded shadow-sm mb-4  box">
+                        <div class="card-body bg-black">
+
+                            <p class="card-text d-flex justify-content-left">
+                                <span style="color:#d4af37; font-size: 24px; font-weight: bold;">✓</span>&ensp;&ensp;
+                                Alta margem de
+                                lucro, sem precisar
+                                gastar
+                                rios de
+                                dinheiro com anúncios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="secao-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-6">
+                    <!-- Texto -->
+                    <h1>GOSTOU? QUER CONHECEROS<br> BASTIDORES
+                        DE CADA ETAPA?
+                    </h1><br>
+
+                    <p class="text-center text-md-start">
+                        Estamos dispostos a te oferecer<br> uma sessão avaliativa estratégica<br> gratuita vamos avaliar
+                        se você
+                        está<br> pronto
+                        para se
+                        tornar um mentor<br> e ter um novo negócio com lucro<br> de até 80%<br><br>
+                    </p>
+                    <div>
+
+                    </div>
+                    <button id="showFormButton  btn-3" class="btn btn-custom  btn-smaller" data-bs-toggle="modal"
+                        data-bs-target="#formModal">quero aplicar agora</button>
+
+                    <p class="text-white" style="margin-top: 10px; font-size: 14px;"> <i class="bi bi-lock-fill"
+                            style="color: goldenrod;"></i>seus
+                        dados estarão
+                        seguros e 100%
+                        protegidos</p>
+                </div>
+
+                <div class="col-12 col-md-6 img-fluid">
+                    <!-- Imagem -->
+                    <img src="assets/img/Camada5-foto.png" alt="Descrição da imagem" height="600">
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container">
+            <hr class="gradient-line my-0">
+        </div>
+
+        <footer class="bg-black py-5">
+            <div class="container">
+                <div class="row text-center text-md-start">
+
+                    <!-- Bloco 1: Logo -->
+                    <div class="col-md-3">
+                        <img src="assets/img/HPM-LOGO-OK.png" alt="Logo HPM" class="img-fluid" height="300px"
+                            width="500px" style="width: 180px !important; height: 100px !important;">
+                    </div>
+
+                    <!-- Bloco 2: Informações -->
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <h5 class="text-white">Informações</h5>
+                        <p class="text-white" class="mb-1">CNPJ: 23.822.259/0001-13 Razão Social: SUPER MARCAS
+                            FRANCHISING LTDA
+                            Endereço: Av. Marginal Comendador Vicente Filizola, 5280 - Redentora</p>
+                    </div>
+
+                    <!-- Bloco 3: Consultor -->
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <h5 class="text-white">Nosso consultor vai te ligar!</h5>
+                        <p class="text-white" class="mb-3">Ligaremos do DDD 17</p>
+                        <button class="btn  text-black btn-smaller"
+                            style="border-radius: 20px; background-color: #46c254;" data-bs-toggle="modal"
+                            data-bs-target="#formModal"><i class="bi bi-headphones"></i>CONSULTOR
+                            ON-LINE</button>
+                    </div>
+
+                    <!-- Bloco 4: Horário de Atendimento -->
+                    <div class="col-md-3">
+                        <h5 class="text-white">Horário de Atendimento</h5>
+                        <p class="text-white" class="mb-1">Segunda a Sexta</p>
+                        <p class="text-white" class="mb-0">08:00 às 18:00</p>
+                    </div>
+
+                </div>
+                <div class="text-center mt-4">
+                    <!-- <p class="text-white" class="mb-0">HPM © 2025 | Geração de Leads Qualificados ❤️ performax</p> -->
+                    <p class="text-white"> Tflow © 2024 | Geração de Leads Qualificados <i
+                            class="fa-solid fa-heart"></i>❤️ <a href="https://perfomax.digital" target="_blank"
+                            rel="noopener" aria-label="Acessar o site do Perfomax">
+                            <img src="assets/img/perfomax__logo-vetorizada__black.png" alt="Logotipo do Perfomax"
+                                loading="lazy" width="100" height="auto"> </a>. </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        // Verifica se está no modo mobile
+        if (window.matchMedia("(max-width: 790px)").matches) {
+            $('#carouselExampleControls').carousel({
+                interval: false // Desativa a mudança automática no modo mobile
+            });
+        }
+    </script>
+
+</body>
+
+</html>
