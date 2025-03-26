@@ -140,6 +140,7 @@ button:hover {
 /* efeito secao-2 */
 
 .timeline {
+    margin-top: 6%;
     position: relative;
     padding: -20px 0;
 }
@@ -301,9 +302,9 @@ button:hover {
 
 
     #secao-5>div>div>div.col-12.col-md-6.img-fluid>img {
-        width: 300px;
+        width: auto;
         height: 300px;
-        margin-left: 6%;
+        margin-left: 18%;
     }
 
     p.text-center:nth-child(3) {
@@ -560,7 +561,7 @@ textos do card-4 */
     font-size: 12px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     .secao-1 {
         display: flex;
@@ -615,11 +616,10 @@ textos do card-4 */
 
 
     #container-1>div>div.col-12.col-md-6.img-fluid>div>img {
-        width: 370px;
+        width: 372px;
         height: 270px;
         margin-left: -10%;
         margin-top: -20%;
-
     }
 
     body>nav>div>a>img {
@@ -712,7 +712,7 @@ textos do card-4 */
     /* titulo secao-2o-2 */
     #secao-2>p {
         font-size: 20px;
-       
+
     }
 
 
@@ -766,7 +766,7 @@ textos do card-4 */
 
     #secao-5>div:nth-child(1)>div>div.col-12.col-md-6.img-fluid>img {
 
-        height: 400px;
+        height: 360;
 
     }
 
@@ -972,7 +972,9 @@ textos do card-4 */
 
     #secao-5>div:nth-child(1)>div>div.col-12.col-md-6.img-fluid>img {
 
-        height: auto;
+        width: auto;
+            height: 270px;
+            margin-left: 18%;
 
     }
 
@@ -1015,14 +1017,19 @@ textos do card-4 */
 
     #container-1>div>div:nth-child(1)>h1 {
         font-size: 25px !important;
-        margin-top: 10%;
+        margin-top: 15%;
     }
+
+    #secao-2 {
+        height: 70% !important;
+    }
+
 
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
-      #secao-2 p  {
+    #secao-2 p {
 
         margin-top: -1% !important;
 
