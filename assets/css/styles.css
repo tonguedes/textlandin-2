@@ -58,7 +58,7 @@ body {
     max-width: 300px;
     text-transform: uppercase;
     height: 70px;
-    background-color: #00FF00;
+    background-color: #25d366;
     color: #FFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     font-size: 18px;
@@ -73,7 +73,7 @@ body {
     max-width: 300px;
     text-transform: uppercase;
     height: 70px;
-    background-color: #00FF00;
+    background-color: #25d366;
     color: #FFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     font-size: 18px;
@@ -89,7 +89,7 @@ body {
     max-width: 300px;
     text-transform: uppercase;
     height: 70px;
-    background-color: #00FF00;
+    background-color: #25d366;
     color: #FFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     font-size: 18px;
@@ -200,7 +200,7 @@ button:hover {
     }
 
     .timeline {
-        margin-left: -5%;
+        margin-left: -6%;
         height: 80% !important;
     }
 
@@ -213,12 +213,12 @@ button:hover {
     .left,
     .right {
         text-align: left;
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
 
-  
 
-   
+
+
 
     /* efeito mobile 1 secao mudanca de ordem das row */
     #container-1 .row {
@@ -312,12 +312,12 @@ button:hover {
     }
 
     div.timeline-item:nth-child(1)>div:nth-child(1)>div:nth-child(1)>p:nth-child(2) {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 100;
     }
 
     div.row:nth-child(2)>div:nth-child(3)>div:nth-child(1)>p:nth-child(2) {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 100;
     }
 
@@ -565,8 +565,8 @@ textos do card-4 */
     .secao-1 {
         display: flex;
         flex-direction: row-reverse;
-
     }
+
 
     #linha-1>hr:nth-child(1) {
         display: none;
@@ -603,7 +603,7 @@ textos do card-4 */
     #secao-2>h2 {
         font-size: 15px;
         margin-top: 5%;
-        
+
 
     }
 
@@ -615,9 +615,9 @@ textos do card-4 */
 
 
     #container-1>div>div.col-12.col-md-6.img-fluid>div>img {
-        width: 330px;
+        width: 370px;
         height: 270px;
-        align-items: center;
+        margin-left: -10%;
         margin-top: -20%;
 
     }
@@ -711,8 +711,11 @@ textos do card-4 */
 
     /* titulo secao-2o-2 */
     #secao-2>p {
-        font-size: 22px;
+        font-size: 20px;
+       
     }
+
+
 
     #secao-3>p {
         font-size: 22px;
@@ -730,7 +733,7 @@ textos do card-4 */
 
 
     #secao-4>p {
-        font-size: 16px !important;
+        font-size: 20px !important;
         margin-top: 5%;
     }
 
@@ -738,10 +741,11 @@ textos do card-4 */
 
     #secao-1>div>div>div:nth-child(1)>h1 {
         font-size: 22px;
+
     }
 
     #showFormButton {
-        font-size: 20px;
+        font-size: 21px;
         margin-left: 7% !important;
     }
 
@@ -762,7 +766,7 @@ textos do card-4 */
 
     #secao-5>div:nth-child(1)>div>div.col-12.col-md-6.img-fluid>img {
 
-        height: auto;
+        height: 400px;
 
     }
 
@@ -794,10 +798,17 @@ textos do card-4 */
     div.col-md-7:nth-child(4)>div:nth-child(1)>div:nth-child(1)>p:nth-child(1) {
         font-size: 14px !important;
     }
-    
-    .navbar{
+
+    .navbar {
         display: flex;
         justify-content: center;
+    }
+
+    .navbar-brand>img:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+        text-align: center !important;
     }
 
 }
@@ -992,6 +1003,33 @@ textos do card-4 */
     }
 }
 
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    #container-1>div>div.col-12.col-md-6.img-fluid>div>img {
+        width: 400px;
+        height: 270px;
+        margin-left: -10%;
+
+
+    }
+
+    #container-1>div>div:nth-child(1)>h1 {
+        font-size: 25px !important;
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+      #secao-2 p  {
+
+        margin-top: -1% !important;
+
+    }
+
+
+}
 
 /* fomulario prennchimento */
 
